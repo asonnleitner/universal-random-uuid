@@ -11,7 +11,11 @@
     "url": "git+https://github.com/asonnleitner/universal-random-uuid.git"
   },
   "bugs": "https://github.com/asonnleitner/universal-random-uuid/issues",
-  "keywords": [],
+  "keywords": [
+    "uuid",
+    "guid",
+    "rfc4122"
+  ],
   "sideEffects": false,
   "exports": {
     ".": {
