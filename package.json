@@ -1,0 +1,43 @@
+{
+  "name": "universal-random-uuid",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Universal WHATWG Crypto API random UUID generator for Node and Browsers",
+  "author": "Andreas Sonnleitner <andreassonnleitner@gmail.com>",
+  "license": "MIT",
+  "sideEffects": false,
+
+  "exports": {
+    ".": {
+      "node": {
+        "types": "./node.d.ts",
+        "import": "./node.mjs",
+        "require": "./node.cjs"
+      },
+      "default": {
+        "types": "./index.d.ts",
+        "import": "./index.mjs",
+        "require": "./index.cjs"
+      }
+    },
+    "./node": {
+      "types": "./node.d.ts",
+      "import": "./node.mjs",
+      "require": "./node.cjs"
+    }
+  },
+  "main": "./node.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./node.d.ts",
+        "./index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "./"
+  ]
+}
