@@ -1,7 +1,7 @@
 {
   "name": "universal-random-uuid",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Universal WHATWG Crypto API random UUID generator for Node and Browsers",
   "author": "Andreas Sonnleitner <andreassonnleitner@gmail.com>",
   "license": "MIT",
