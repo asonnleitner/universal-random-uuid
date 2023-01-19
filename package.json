@@ -20,34 +20,35 @@
   "exports": {
     ".": {
       "node": {
-        "types": "./node.d.ts",
-        "import": "./node.mjs",
-        "require": "./node.cjs"
+        "types": "./lib/node.d.ts",
+        "import": "./lib/node.mjs",
+        "require": "./lib/node.cjs"
       },
       "default": {
-        "types": "./index.d.ts",
-        "import": "./index.mjs",
-        "require": "./index.cjs"
+        "types": "./lib/index.d.ts",
+        "import": "./lib/index.mjs",
+        "require": "./lib/index.cjs"
       }
     },
     "./node": {
-      "types": "./node.d.ts",
-      "import": "./node.mjs",
-      "require": "./node.cjs"
+      "types": "./lib/node.d.ts",
+      "import": "./lib/node.mjs",
+      "require": "./lib/node.cjs"
     }
   },
-  "main": "./node.cjs",
-  "module": "./index.mjs",
-  "types": "./index.d.ts",
+  "main": ",/lib/node.cjs",
+  "module": "./lib/index.mjs",
+  "types": "./lib/index.d.ts",
   "typesVersions": {
     "*": {
       "*": [
-        "./node.d.ts",
-        "./index.d.ts"
+        "./lib/*",
+        "./lib/index.d.ts",
+        "./lib/node.d.ts"
       ]
     }
   },
   "files": [
-    "./"
+    "lib"
   ]
 }
