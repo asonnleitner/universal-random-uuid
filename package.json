@@ -5,8 +5,14 @@
   "description": "Universal WHATWG Crypto API random UUID generator for Node and Browsers",
   "author": "Andreas Sonnleitner <andreassonnleitner@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/asonnleitner/universal-random-uuid",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asonnleitner/universal-random-uuid.git"
+  },
+  "bugs": "https://github.com/asonnleitner/universal-random-uuid/issues",
+  "keywords": [],
   "sideEffects": false,
-
   "exports": {
     ".": {
       "node": {
